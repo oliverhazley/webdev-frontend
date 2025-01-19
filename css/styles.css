@@ -1,4 +1,9 @@
+
+
+/* ------------- */
 /* General Styles */
+/* ------------- */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -8,7 +13,13 @@ body {
     scroll-behavior: smooth; /* Enables smooth scrolling for navbar links */
 }
 
+
+
+
+/* ------------- */
 /* Navbar */
+/* ------------- */
+
 .navbar {
     width: 80%;
     margin: 0 auto;
@@ -53,7 +64,15 @@ body {
     border-bottom: 2px solid #5ec4ff;
 }
 
+
+
+
+
+
+/* ------------- */
 /* Hero Section */
+/* ------------- */
+
 #hero {
     width: 80%;
     margin: 20px auto;
@@ -70,13 +89,18 @@ body {
     font-weight: bold;
 }
 
+
+
+/* ------------- */
 /* About Section */
+/* ------------- */
+
 #about {
     width: 80%;
     margin: 20px auto;
     padding: 20px;
     position: relative;
-    background-image: url('paper.png'); /* Background image */
+    background-image: url('img/paper.png'); /* Background image */
     background-size: cover;
     background-position: center;
     border-radius: 10px;
@@ -97,7 +121,8 @@ body {
     float:left;
 }
 
-/* Floating Images */
+/* Heart image right side about */
+
 .floating-image {
     position: absolute;
     top: -30px;
@@ -108,6 +133,8 @@ body {
     width: 90px;
     height: auto;
 }
+
+/* Pulse image left side about */
 
 .pulse-image {
     position: absolute;
@@ -121,7 +148,12 @@ body {
 }
 
 
+
+
+/* ------------- */
 /* Footer */
+/* ------------- */
+
 footer {
     background-color: #6b0000;
     color: #ffffff;
