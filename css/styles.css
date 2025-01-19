@@ -100,7 +100,7 @@ body {
     margin: 20px auto;
     padding: 20px;
     position: relative;
-    background-image: url('img/paper.png'); /* Background image */
+    background-image: url('/img/paper.png'); /* Background image */
     background-size: cover;
     background-position: center;
     border-radius: 10px;
