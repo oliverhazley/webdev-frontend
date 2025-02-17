@@ -1,0 +1,335 @@
+
+
+/* ------------- */
+/* General Styles */
+/* ------------- */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333333;
+    scroll-behavior: smooth; /* Enables smooth scrolling for navbar links */
+}
+
+
+
+
+/* ------------- */
+/* Navbar */
+/* ------------- */
+
+.navbar {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #2b2f33;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar .logo {
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #00d2ff, #3a47d5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-links {
+    float: left;
+    list-style: none;
+    margin: 6px;
+    margin-left:50px;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin-left: 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #5ec4ff;
+    border-bottom: 2px solid #5ec4ff;
+}
+
+
+
+
+
+
+/* ------------- */
+/* Hero Section */
+/* ------------- */
+
+#hero {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    text-align: center;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#hero .highlight {
+    color: #5ec4ff;
+    font-weight: bold;
+}
+
+/* Expanded Hero Section */
+#hero-expanded {
+    width: 80%;
+    margin: 20px auto; /* Center the section */
+    padding: 20px;
+    background-image: url('//assets/img/foil.png'); /* Background image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+
+/* Overlay effect for better readability */
+#hero-expanded::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); /* Dark overlay */
+    border-radius: 10px;
+}
+
+/* Hero content */
+.hero-content {
+    position: relative;
+    max-width: 600px;
+    padding: 20px;
+    z-index: 1;
+}
+
+.hero-content h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Button */
+.hero-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 1rem;
+    color: white;
+    background-color: #5ec4ff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.hero-btn:hover {
+    background-color: #3a9cd5;
+}
+
+
+
+/* ------------- */
+/* About Section */
+/* ------------- */
+
+#about {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    position: relative;
+    background-image: url('//assets/img/paper.png'); /* Background image */
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#about .about-content {
+    margin-left: 50%;
+    padding: 20px;
+    color: #000000;
+}
+
+#about h2, #about h3 {
+    margin: 10px 0;
+    text-align: left;
+}
+#about p #first {
+    float:left;
+}
+
+/* Heart image right side about */
+
+.floating-image {
+    position: absolute;
+    top: -30px;
+    right: 20px;
+}
+
+.floating-image img {
+    width: 90px;
+    height: auto;
+}
+
+/* Pulse image left side about */
+
+.pulse-image {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+}
+
+.pulse-image img {
+    width: 400px;
+    height: auto;
+}
+
+
+
+
+/* ------------- */
+/* Footer */
+/* ------------- */
+
+footer {
+    background-color: #6b0000;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    margin: 0;
+}
+
+
+
+
+/* ------------- */
+/* BMI calculator */
+/* ------------- */
+
+
+/* Container for everything in the bmi section */
+#bmi {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Image at top */
+.bmi-image-container {
+    text-align: center; /* center the image */
+    margin-bottom: 20px;
+}
+
+.bmi-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Vertical stacking for the calculator */
+.bmi-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* space between form/results/analysis */
+}
+
+/* Form styling vertical */
+.bmi-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.bmi-form label {
+    font-weight: bold;
+}
+
+.bmi-form input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.bmi-form button {
+    padding: 10px 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.bmi-form button:hover {
+    background-color: #555; /* slightly lighter on hover */
+}
+
+/* Results & Table */
+.bmi-result {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.bmi-result p {
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+/* Table styling */
+.bmi-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.bmi-table th,
+.bmi-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+/* Highlighting */
+.highlightBmi {
+    background-color: #bfffbf;
+}
+
+/* Analysis text */
+.analysis {
+    font-style: italic;
+    margin-top: 10px;
+}

@@ -1,7 +1,122 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cfaeecfb-ff35-40e7-9f08-a2969ac8487f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/old-pre-vite-project/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old-pre-vite-project/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-front/public/img/bmi.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-front/public/img/foil.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-front/public/img/heart.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-front/public/img/heart1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-front/public/img/heart2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-front/public/img/paper.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-front/public/img/pulse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-front/src/assets/img/bmi.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-front/src/assets/img/foil.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-front/src/assets/img/heart.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-front/src/assets/img/heart1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-front/src/assets/img/heart2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-front/src/assets/img/paper.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-front/src/assets/img/pulse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-front/src/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-front/src/js/fetch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-front/src/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-front/src/pages/fetchtestaus.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-front/vite.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/old-pre-vite-project/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/foil.png" beforeDir="false" afterPath="$PROJECT_DIR$/old-pre-vite-project/img/foil.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/heart.jfif" beforeDir="false" afterPath="$PROJECT_DIR$/old-pre-vite-project/img/heart.jfif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/heart1.png" beforeDir="false" afterPath="$PROJECT_DIR$/old-pre-vite-project/img/heart1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/heart2.png" beforeDir="false" afterPath="$PROJECT_DIR$/old-pre-vite-project/img/heart2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/paper.png" beforeDir="false" afterPath="$PROJECT_DIR$/old-pre-vite-project/img/paper.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/pulse.png" beforeDir="false" afterPath="$PROJECT_DIR$/old-pre-vite-project/img/pulse.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2ryr0OrWz9e7LXRxSWvYibHlFNm" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/olive/PycharmProjects/Ohjelmointi1/webdev-frontend/vite-front/src/assets&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\olive\PycharmProjects\Ohjelmointi1\webdev-frontend\vite-front\src\assets" />
+      <recent name="C:\Users\olive\PycharmProjects\Ohjelmointi1\webdev-frontend\vite-front\src\assets\img" />
+      <recent name="C:\Users\olive\PycharmProjects\Ohjelmointi1\webdev-frontend\vite-front\public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\olive\PycharmProjects\Ohjelmointi1\webdev-frontend\vite-front\src\css" />
+      <recent name="C:\Users\olive\PycharmProjects\Ohjelmointi1\webdev-frontend\vite-front\src\js" />
+      <recent name="C:\Users\olive\PycharmProjects\Ohjelmointi1\webdev-frontend\diary" />
+      <recent name="C:\Users\olive\PycharmProjects\Ohjelmointi1\webdev-frontend\old-pre-vite-project" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-50da183f06c8-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13135.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cfaeecfb-ff35-40e7-9f08-a2969ac8487f" name="Changes" comment="" />
+      <created>1737541931670</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1737541931670</updated>
+      <workItem from="1737541932926" duration="6000" />
+      <workItem from="1737703910721" duration="8000" />
+      <workItem from="1738050997250" duration="8765000" />
+      <workItem from="1738155148493" duration="401000" />
+      <workItem from="1738512564969" duration="613000" />
+      <workItem from="1738526175148" duration="4882000" />
+      <workItem from="1738566401066" duration="12000" />
+      <workItem from="1738655366752" duration="1261000" />
+      <workItem from="1739176909147" duration="7450000" />
+      <workItem from="1739258264591" duration="163000" />
+      <workItem from="1739350159580" duration="691000" />
+      <workItem from="1739793303813" duration="887000" />
+      <workItem from="1739794203666" duration="7661000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
